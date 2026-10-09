@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+aiobserve.db
+build/
+dist/
+.coverage
+htmlcov/
+.DS_Store
+
+# Virtual environments
+.venv-1/
+venv-*/
+
+# Generated package metadata and build artifacts
+*.egg-info/
+dist/
+build/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
